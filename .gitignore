@@ -4,5 +4,19 @@ dockclean-smart
 *.test
 *.prof
 
-# OS
+# OS & Editor
 .DS_Store
+.idea/
+.vscode/
+
+# Environment Variables & Secrets
+.env
+.env.*
+.env*.local
+!.env.example
+!**/.env.example
+*.secret
+*.key
+*.pem
+*.p12
+credentials.json
