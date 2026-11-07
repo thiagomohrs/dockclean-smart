@@ -1,0 +1,8 @@
+# Binaries
+dockclean-smart
+*.exe
+*.test
+*.prof
+
+# OS
+.DS_Store
